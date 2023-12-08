@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: maskedfl_1:322150ccc5bc8aea4e17228e19ea9b5dd8d1d224799e0f7bde44f701a0aa6439, Label: maskedfl_1

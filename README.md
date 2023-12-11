@@ -1,16 +1,21 @@
-# hyperledger-fabric-scaffold
+# ML Model Aggregation with HyperLedger
 
-This is a scaffold to start a Hyperledger Fabric Project 
-<p align="center">
-  <img src="network.png"?raw=true width=40% title="Network Template">
-</p>
+This repository contains the source code for the ML model aggregation. All the chaincodes and supporting applications are implemented using Java.
+
+Figure below shows the implementation details
+
+![Alt text](impl.jpg "Proposed Architecture")
 
 
-Instructions to get things started
----------------------------------------------
-- [Installation](installation/)
-- [Hyperledger Fabric Network](network/config)
-- [Start the network](network/bin)
-- [Sample Chaincodes](gocc/src/github.com/tharindupr/sample)
-- [Run the API](api)
+
+## Instructions to start
+
+- Create the virtual machine using the provided vagrant file.
+- SSH and access the virtual machine
+- Follow the steps in [Installation](installation/) to install the required binary files
+- Run the rebuilt-network-with-chaincode.sh in the network folder
+- maskedfl folder contains the code for the chaincode
+- application-java folder contains the Java project for handling model aggregation requests
+
+
 
